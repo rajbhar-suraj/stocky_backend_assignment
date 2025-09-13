@@ -1,4 +1,4 @@
-### Stock Rewards Backend
+### Stock Rewards Backend -- postman testing line - https://surajrajbhar-2750050.postman.co/workspace/chat-app~9c7fc691-481c-499b-a0d2-f4522d428171/request/45713249-2426f7a2-5052-47a7-808c-66baf252fe63?action=share&creator=45713249&ctx=documentation&active-environment=45713249-a3d5af12-3a25-46d8-a5e1-b05853ab7ffa
 
 ### How to run this repo
 1. clone or install the zip file.
