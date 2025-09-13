@@ -1,28 +1,30 @@
+### Stock Rewards Backend
+
 ### How to run this repo
-**`clone or install the zip file`**
-**`npm install`**
-**`setup the env file - DATABASE_URL AND PORT`**
-**`have used supabase if using local machine postgres then find the connection for local on internet`**
-**`npm start - for running the code or alter the scripts in package.json`**
+**`clone or install the zip file`**<br>
+**`npm install`**<br>
+**`setup the env file - DATABASE_URL AND PORT`**<br>
+**`I have used supabase if using local machine postgres then find the connection for local on internet`**<br>
+**`npm start - for running the code or alter the scripts in package.json`**<br><br>
 
 ### API specifications (request/response payloads).
-**`Have divide the project into small chunks Model - controller - routes`**
-**`where you can just clearly check what each function is meant to be doing`**
-**`user sends the response it goes to designated controller or fn checks for parameters if not present return bad request`**
-**`else move forward and it goes to model where it executes the database query and return the result which goes back to controller and its sends the json`**
+**`Have divide the project into small chunks Model - controller - routes`**<br>
+**`where you can just clearly check what each function is meant to be doing`**<br>
+**`user sends the response it goes to designated controller or fn checks for parameters if not present return bad request`**<br>
+**`else move forward and it goes to model where it executes the database query and return the result which goes back to controller and its sends the json`**<br>
 
 ### Database schema with relationships.
-**`I have put all the tables and the values on which you can test on`**
-**`so every user can have the reward on diff ocassion[signup,achieving milestone, or showing up daily on website or application]`**
-**`so when users gets rewarded its get stored in the company_ledger with all the necessary calculation - have not used trigger or procedure`**
-**`have restricted for duplicates entry by reward_reason if it exists in the curr_date return bad request`**
+**`I have put all the tables and the values on which you can test on`**<br>
+**`so every user can have the reward on diff ocassion[signup,achieving milestone, or showing up daily on website or application]`**<br>
+**`so when users gets rewarded its get stored in the company_ledger with all the necessary calculation - have not used trigger or procedure`**<br>
+**`have restricted for duplicates entry by reward_reason if it exists in the curr_date return bad request`**<br>
 
-### Explanation of how your system handles edge cases and scaling.
-**`I have added rate limiter for accesssing the route`**
-**`Used cron-jobs lib for updating the stock price`**
-**`have not handled adjustments/refunds and Stock splits, mergers, or delisting cause don't know much about mergers or delisting`**
-
-**`Thank you so much - this assignment just made my backend a little strong and made me realize how much backend is necessary`**
+### Explanation of how your system handles edge cases and scaling.<br>
+**`I have added rate limiter for accesssing the route`**<br>
+**`Used cron-jobs lib for updating the stock price`**<br>
+**`have not handled adjustments/refunds and Stock splits, mergers, or delisting cause don't know much about mergers or delisting`**<br>
+<br>
+**`Thank you so much - this assignment just made my backend a little strong and made me realize how much backend is necessary`**<br>
 
 ### 1. Design APIs - done
 Implement REST endpoints for the following:
